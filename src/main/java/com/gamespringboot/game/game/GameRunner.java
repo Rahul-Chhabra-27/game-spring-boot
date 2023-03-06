@@ -1,11 +1,17 @@
 package com.gamespringboot.game.game;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
+    @Autowired
     private GameConsole game;
 
-    public GameRunner(GameConsole marioGame) {
-        this.game = marioGame;
+    public GameRunner(GameConsole game) {
+        this.game = game;
     }
+
     public void runner() {
         game.up();
         game.down();

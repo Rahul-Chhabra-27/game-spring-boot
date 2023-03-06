@@ -1,5 +1,8 @@
 package com.gamespringboot.game.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ContraGame implements GameConsole {
     public void up() {
         System.out.println("Contra UP");

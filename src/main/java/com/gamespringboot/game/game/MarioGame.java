@@ -1,5 +1,10 @@
 package com.gamespringboot.game.game;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
 public class MarioGame implements GameConsole {
 
     public void up() {
