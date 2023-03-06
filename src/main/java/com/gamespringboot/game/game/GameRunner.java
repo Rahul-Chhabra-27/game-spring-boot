@@ -1,9 +1,9 @@
 package com.gamespringboot.game.game;
 
 public class GameRunner {
-    private MarioGame game;
+    private GameConsole game;
 
-    public GameRunner(MarioGame marioGame) {
+    public GameRunner(GameConsole marioGame) {
         this.game = marioGame;
     }
     public void runner() {

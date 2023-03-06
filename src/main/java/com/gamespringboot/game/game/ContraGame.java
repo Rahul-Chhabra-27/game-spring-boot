@@ -1,6 +1,6 @@
 package com.gamespringboot.game.game;
 
-public class ContraGame {
+public class ContraGame implements GameConsole {
     public void up() {
         System.out.println("Contra UP");
     }

@@ -1,6 +1,6 @@
 package com.gamespringboot.game.game;
 
-public class PackmanGame {
+public class PackmanGame implements GameConsole {
     public void up() {
         System.out.println("Packman UP");
     }
